@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="151" height="60" viewBox="0 0 151 60">
+  <g id="Menu" transform="translate(-1514 -123)">
+    <g id="Rectangle_568" data-name="Rectangle 568" transform="translate(1514 123)" fill="#fff" stroke="#707070" stroke-width="1">
+      <path d="M6,0H145a6,6,0,0,1,6,6V60a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V6A6,6,0,0,1,6,0Z" stroke="none"/>
+      <path d="M6,.5H145A5.5,5.5,0,0,1,150.5,6V59a.5.5,0,0,1-.5.5H1A.5.5,0,0,1,.5,59V6A5.5,5.5,0,0,1,6,.5Z" fill="none"/>
+    </g>
+    <line id="Line_145" data-name="Line 145" x2="36" transform="translate(1540.5 139.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_146" data-name="Line 146" x2="36" transform="translate(1540.5 153.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_148" data-name="Line 148" x1="36" transform="translate(1540.5 167.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="Menu-2" data-name="Menu" transform="translate(1608 173)" fill="#707070" stroke="#707070" stroke-width="1" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Menu</tspan></text>
+  </g>
+</svg>

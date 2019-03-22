@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="151" height="60" viewBox="0 0 151 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #707070;
+      }
+
+      .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #707070;
+        font-size: 16px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Multiple_Inserts" data-name="Multiple Inserts" transform="translate(-608 -123)">
+    <g id="Rectangle_231" data-name="Rectangle 231" class="cls-1" transform="translate(608 123)">
+      <path class="cls-4" d="M6,0H145a6,6,0,0,1,6,6V60a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V6A6,6,0,0,1,6,0Z"/>
+      <path class="cls-5" d="M6,.5H145A5.5,5.5,0,0,1,150.5,6V59a.5.5,0,0,1-.5.5H1A.5.5,0,0,1,.5,59V6A5.5,5.5,0,0,1,6,.5Z"/>
+    </g>
+    <line id="Line_72" data-name="Line 72" class="cls-2" y2="12" transform="translate(633.5 154.5)"/>
+    <line id="Line_73" data-name="Line 73" class="cls-2" x2="12" transform="translate(627.5 160.5)"/>
+    <g id="Rectangle_240" data-name="Rectangle 240" class="cls-2" transform="translate(622 127)">
+      <rect class="cls-4" width="28" height="44" rx="8"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="27" height="43" rx="7.5"/>
+    </g>
+    <g id="Rectangle_241" data-name="Rectangle 241" class="cls-2" transform="translate(615 135)">
+      <rect class="cls-4" width="28" height="44" rx="8"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="27" height="43" rx="7.5"/>
+    </g>
+    <text id="Multiple_Inserts-2" data-name="Multiple 
+   Inserts" class="cls-3" transform="translate(691 153)"><tspan x="0" y="0">Multiple </tspan><tspan x="0" y="21" xml:space="preserve">   Inserts</tspan></text>
+  </g>
+</svg>

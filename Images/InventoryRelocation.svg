@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="151" height="60" viewBox="0 0 151 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #707070;
+      }
+
+      .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #707070;
+        font-size: 16px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Inventory_Relocation" data-name="Inventory Relocation" transform="translate(-1061 -123)">
+    <g id="Rectangle_234" data-name="Rectangle 234" class="cls-1" transform="translate(1061 123)">
+      <path class="cls-4" d="M6,0H145a6,6,0,0,1,6,6V60a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V6A6,6,0,0,1,6,0Z"/>
+      <path class="cls-5" d="M6,.5H145A5.5,5.5,0,0,1,150.5,6V59a.5.5,0,0,1-.5.5H1A.5.5,0,0,1,.5,59V6A5.5,5.5,0,0,1,6,.5Z"/>
+    </g>
+    <path id="Path_18" data-name="Path 18" class="cls-2" d="M1388-489.613h-35.694s17.7,61.144,34.069,8.5" transform="translate(-284 620)"/>
+    <line id="Line_77" data-name="Line 77" class="cls-2" x1="8" y2="2" transform="translate(1094.5 138.5)"/>
+    <line id="Line_78" data-name="Line 78" class="cls-2" x2="4" y2="6" transform="translate(1102.5 138.5)"/>
+    <path id="Path_19" data-name="Path 19" class="cls-2" d="M1388-489.613h-35.694s17.516,61.066,33.886,8.65" transform="translate(2458.806 -310.229) rotate(180)"/>
+    <line id="Line_79" data-name="Line 79" class="cls-2" x1="8" y2="2" transform="translate(1080.306 171.271) rotate(180)"/>
+    <line id="Line_80" data-name="Line 80" class="cls-2" x2="4" y2="6" transform="translate(1072.306 171.271) rotate(180)"/>
+    <text id="_Inventory_Relocation" data-name="  Inventory
+Relocation" class="cls-3" transform="translate(1132 153)"><tspan x="0" y="0" xml:space="preserve">  Inventory</tspan><tspan x="0" y="21">Relocation</tspan></text>
+  </g>
+</svg>

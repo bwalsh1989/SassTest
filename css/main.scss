@@ -1,0 +1,205 @@
+$colors: (
+    primary: #80C040,
+    primary-light: lighten(#80C040, 60%),
+    primary-dark: darken(#80C040, 40%),
+    accent: rgb(207, 207, 207),
+    grey: #707070
+);
+
+$padding: 15px; 
+$borders: 15px;
+$desktop: 725px;
+
+@function color($color-name) {
+    @return map-get($colors, $color-name)  
+}
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+th {
+    height: 25px;
+}
+
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+
+    #bg {
+        background-image: url(https://i.imgur.com/muAHF6l.png);
+        background-repeat: repeat;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: color(primary);
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: auto;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-width: 1px;
+        border-color: color(gray);
+        background-color: #FFF;
+        color: #fff;
+        text-decoration: none;
+        padding-top: 5px;
+        padding-left: 5px;
+        text-transform: uppercase;
+        }
+
+        .Icons {
+                display: flex;
+                flex-direction: row;
+                margin-right: auto;
+                margin-left: 30px;
+                overflow: scroll;
+                
+                &::-webkit-scrollbar {
+                    height: 6px;
+                    width: 0px;
+                    background: #d3d3d3;
+                    }
+                &::-webkit-scrollbar-thumb:horizontal{
+                    background-color: lighten(grey, 5%);
+                    }
+                &::-webkit-scrollbar-track:horizontal{
+                    background: #d3d3d3;
+                    }
+                &::-webkit-scrollbar-thumb:hover:horizontal{
+                    background: #555;
+                    }
+
+                }
+            
+        .Icons img {
+            height: 45px;
+            display: flex;
+        }
+
+        .dropdown {
+            white-space: nowrap;
+            color: lighten(grey, 5%);
+            text-align: center;
+            text-transform: none;
+            margin-left: 30px;
+            padding: 3px;
+            border-radius: 5px 5px 0px 0px;
+            border: solid;
+            border-width: 1px;
+            margin-right: 5px;
+            font-size: 10pt;
+            width: 119px;
+          }
+          
+        .dropdown-content {
+            top: 113px;
+            color: lighten(grey, 5%);
+            display: none;
+            position: absolute;
+            min-width: auto;
+            background-color: #FFF;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            border: solid;
+            border-color: lighten(grey, 5%);
+            border-width: 1px;
+            z-index: 1;
+            left: auto;
+            right: 5px;
+            text-align: right;
+          }
+          
+        .dropdown:hover .dropdown-content {
+            display: block;
+            border-radius: 0px 0px 5px 5px;
+            padding: 5px;
+          }
+}
+
+main, html {
+    height: 75vh;
+}
+
+main {
+
+    ::-webkit-scrollbar {
+        width: 10px;
+        margin: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #d3d3d3;
+        border-radius: 5px;
+        margin: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: lighten(grey, 5%);
+        border-radius: 5px; 
+        margin: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+        margin: 10px;
+      }
+      
+    margin: 0;
+    display: grid;
+    grid-template-columns: 5% auto 5%;
+    grid-template-rows: 30px auto 25%;
+    grid-template-areas: 
+    "l m r"
+    "l m r"
+    "l m r";
+    
+    @include desktop {
+        margin: 0;
+        display: grid;
+        grid-template-columns: 145px auto 20%;
+        grid-template-rows: 30px auto 5%;
+        grid-template-areas: 
+        "b c d"
+        "b a d"
+        "b e d";
+    }
+
+    .table {
+        grid-area: m;
+        overflow-y: auto;
+        border: solid;
+        border-color: lighten(grey, 5%);
+        border-width: 1px;
+        background: rgba(255, 255, 255, 0.65);
+        color: color(grey);
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: $borders;
+        box-shadow: 0 10px 30px rgba(0,0,0,.2);
+        max-width: 865px;
+
+        @include desktop{
+            grid-area: a;
+            margin-top: 20px;
+        }
+
+        .container {
+            text-align: left;
+        }
+    }
+}

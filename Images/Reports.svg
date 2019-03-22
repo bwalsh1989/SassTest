@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="151" height="60" viewBox="0 0 151 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #707070;
+      }
+
+      .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #707070;
+        font-size: 16px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Reports" transform="translate(-1212 -123)">
+    <g id="Rectangle_235" data-name="Rectangle 235" class="cls-1" transform="translate(1212 123)">
+      <path class="cls-4" d="M6,0H145a6,6,0,0,1,6,6V60a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V6A6,6,0,0,1,6,0Z"/>
+      <path class="cls-5" d="M6,.5H145A5.5,5.5,0,0,1,150.5,6V59a.5.5,0,0,1-.5.5H1A.5.5,0,0,1,.5,59V6A5.5,5.5,0,0,1,6,.5Z"/>
+    </g>
+    <g id="Ellipse_6" data-name="Ellipse 6" class="cls-2" transform="translate(1217 130)">
+      <circle class="cls-4" cx="24" cy="24" r="24"/>
+      <circle class="cls-5" cx="24" cy="24" r="23.5"/>
+    </g>
+    <line id="Line_81" data-name="Line 81" class="cls-2" y2="24" transform="translate(1241.5 130.5)"/>
+    <line id="Line_82" data-name="Line 82" class="cls-2" y1="22" x2="10" transform="translate(1241.5 132.5)"/>
+    <line id="Line_83" data-name="Line 83" class="cls-2" y1="3" x2="23" transform="translate(1241.5 151.5)"/>
+    <text id="Reports-2" data-name="Reports" class="cls-3" transform="translate(1301 174)"><tspan x="0" y="0">Reports</tspan></text>
+  </g>
+</svg>

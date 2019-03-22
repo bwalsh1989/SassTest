@@ -1,0 +1,220 @@
+th {
+  height: 25px;
+}
+
+body {
+  font-family: 'Montserrat';
+  margin: 0;
+}
+
+body #bg {
+  background-image: url(https://i.imgur.com/muAHF6l.png);
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+body .topbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #80C040;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+body .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: auto;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #707070;
+  background-color: #FFF;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-left: 5px;
+  text-transform: uppercase;
+}
+
+body .Icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: auto;
+  margin-left: 30px;
+  overflow: scroll;
+}
+
+body .Icons::-webkit-scrollbar {
+  height: 6px;
+  width: 0px;
+  background: #d3d3d3;
+}
+
+body .Icons::-webkit-scrollbar-thumb:horizontal {
+  background-color: #8d8d8d;
+}
+
+body .Icons::-webkit-scrollbar-track:horizontal {
+  background: #d3d3d3;
+}
+
+body .Icons::-webkit-scrollbar-thumb:hover:horizontal {
+  background: #555;
+}
+
+body .Icons img {
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .dropdown {
+  white-space: nowrap;
+  color: #8d8d8d;
+  text-align: center;
+  text-transform: none;
+  margin-left: 30px;
+  padding: 3px;
+  border-radius: 5px 5px 0px 0px;
+  border: solid;
+  border-width: 1px;
+  margin-right: 5px;
+  font-size: 10pt;
+  width: 119px;
+}
+
+body .dropdown-content {
+  top: 113px;
+  color: #8d8d8d;
+  display: none;
+  position: absolute;
+  min-width: auto;
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border: solid;
+  border-color: #8d8d8d;
+  border-width: 1px;
+  z-index: 1;
+  left: auto;
+  right: 5px;
+  text-align: right;
+}
+
+body .dropdown:hover .dropdown-content {
+  display: block;
+  border-radius: 0px 0px 5px 5px;
+  padding: 5px;
+}
+
+main, html {
+  height: 75vh;
+}
+
+main {
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5% auto 5%;
+      grid-template-columns: 5% auto 5%;
+  -ms-grid-rows: 30px auto 25%;
+      grid-template-rows: 30px auto 25%;
+      grid-template-areas: "l m r" "l m r" "l m r";
+}
+
+main ::-webkit-scrollbar {
+  width: 10px;
+  margin: 10px;
+}
+
+main ::-webkit-scrollbar-track {
+  background: #d3d3d3;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+main ::-webkit-scrollbar-thumb {
+  background: #8d8d8d;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+main ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  margin: 10px;
+}
+
+@media (min-width: 725px) {
+  main {
+    margin: 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 145px auto 20%;
+        grid-template-columns: 145px auto 20%;
+    -ms-grid-rows: 30px auto 5%;
+        grid-template-rows: 30px auto 5%;
+        grid-template-areas: "b c d" "b a d" "b e d";
+  }
+}
+
+main .table {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 2;
+  grid-area: m;
+  overflow-y: auto;
+  border: solid;
+  border-color: #8d8d8d;
+  border-width: 1px;
+  background: rgba(255, 255, 255, 0.65);
+  color: #707070;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 865px;
+}
+
+@media (min-width: 725px) {
+  main .table {
+    grid-area: a;
+    margin-top: 20px;
+  }
+}
+
+main .table .container {
+  text-align: left;
+}
+/*# sourceMappingURL=main.css.map */
