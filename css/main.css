@@ -138,11 +138,11 @@ body .dropdown:hover .dropdown-content {
   padding: 5px;
 }
 
-main, html {
+#HomeMain, html {
   height: 75vh;
 }
 
-main {
+#HomeMain {
   margin: 0;
   display: -ms-grid;
   display: grid;
@@ -153,42 +153,42 @@ main {
       grid-template-areas: "l m r" "l m r" "l m r";
 }
 
-main ::-webkit-scrollbar {
+#HomeMain ::-webkit-scrollbar {
   width: 10px;
   margin: 10px;
 }
 
-main ::-webkit-scrollbar-track {
+#HomeMain ::-webkit-scrollbar-track {
   background: #d3d3d3;
   border-radius: 5px;
   margin: 10px;
 }
 
-main ::-webkit-scrollbar-thumb {
+#HomeMain ::-webkit-scrollbar-thumb {
   background: #8d8d8d;
   border-radius: 5px;
   margin: 10px;
 }
 
-main ::-webkit-scrollbar-thumb:hover {
+#HomeMain ::-webkit-scrollbar-thumb:hover {
   background: #555;
   margin: 10px;
 }
 
 @media (min-width: 725px) {
-  main {
+  #HomeMain {
     margin: 0;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 145px auto 20%;
-        grid-template-columns: 145px auto 20%;
+    -ms-grid-columns: 145px auto 14%;
+        grid-template-columns: 145px auto 14%;
     -ms-grid-rows: 30px auto 5%;
         grid-template-rows: 30px auto 5%;
         grid-template-areas: "b c d" "b a d" "b e d";
   }
 }
 
-main .table {
+#HomeMain .table {
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
   -ms-grid-column: 2;
@@ -200,6 +200,7 @@ main .table {
   background: rgba(255, 255, 255, 0.65);
   color: #707070;
   margin-top: 20px;
+  max-height: 450px;
   padding: 20px;
   border-radius: 15px;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -208,13 +209,13 @@ main .table {
 }
 
 @media (min-width: 725px) {
-  main .table {
+  #HomeMain .table {
     grid-area: a;
     margin-top: 20px;
   }
 }
 
-main .table .container {
+#HomeMain .table .container {
   text-align: left;
 }
 /*# sourceMappingURL=main.css.map */

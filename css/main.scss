@@ -134,11 +134,11 @@ body {
           }
 }
 
-main, html {
+#HomeMain, html {
     height: 75vh;
 }
 
-main {
+#HomeMain {
 
     ::-webkit-scrollbar {
         width: 10px;
@@ -171,7 +171,7 @@ main {
     @include desktop {
         margin: 0;
         display: grid;
-        grid-template-columns: 145px auto 20%;
+        grid-template-columns: 145px auto 14%;
         grid-template-rows: 30px auto 5%;
         grid-template-areas: 
         "b c d"
@@ -188,6 +188,7 @@ main {
         background: rgba(255, 255, 255, 0.65);
         color: color(grey);
         margin-top: 20px;
+        max-height: 450px;
         padding: 20px;
         border-radius: $borders;
         box-shadow: 0 10px 30px rgba(0,0,0,.2);
