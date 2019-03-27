@@ -8,7 +8,7 @@ body, html {
 }
 
 body {
-  font-family: 'Montserrat';
+  font-family: 'segoe ui';
   margin: 0;
 }
 
@@ -192,7 +192,7 @@ body .dropdown:hover .dropdown-content {
         grid-template-columns: 160px auto 13%;
     -ms-grid-rows: 0px auto 5%;
         grid-template-rows: 0px auto 5%;
-        grid-template-areas: ". . ." ". a ." ". . .";
+        grid-template-areas: ". . ." ". a ." ". . .";
   }
 }
 
