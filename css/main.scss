@@ -23,6 +23,11 @@ th {
     height: 25px;
 }
 
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     font-family: 'Montserrat';
     margin: 0;
@@ -104,6 +109,7 @@ body {
             padding: 3px;
             border-radius: 5px 5px 0px 0px;
             border: solid;
+            border-bottom: none;
             border-width: 1px;
             margin-right: 5px;
             font-size: 10pt;
@@ -135,7 +141,8 @@ body {
 }
 
 #HomeMain, html {
-    height: 75vh;
+    height: 85%;
+    margin: 0;
 }
 
 #HomeMain {
@@ -162,7 +169,7 @@ body {
     margin: 0;
     display: grid;
     grid-template-columns: 5% auto 5%;
-    grid-template-rows: 30px auto 25%;
+    grid-template-rows: 30px auto 5%;
     grid-template-areas: 
     "l m r"
     "l m r"
@@ -171,8 +178,8 @@ body {
     @include desktop {
         margin: 0;
         display: grid;
-        grid-template-columns: 145px auto 14%;
-        grid-template-rows: 30px auto 5%;
+        grid-template-columns: 160px auto 13%;
+        grid-template-rows: 0px auto 5%;
         grid-template-areas: 
         "b c d"
         "b a d"
@@ -196,7 +203,6 @@ body {
 
         @include desktop{
             grid-area: a;
-            margin-top: 20px;
         }
 
         .container {
