@@ -150,14 +150,15 @@ body .dropdown:hover .dropdown-content {
 }
 
 #HomeMain {
-  margin: 0;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 5% auto 5%;
-      grid-template-columns: 5% auto 5%;
-  -ms-grid-rows: 30px auto 5%;
-      grid-template-rows: 30px auto 5%;
-      grid-template-areas: "l m r" "l m r" "l m r";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #HomeMain ::-webkit-scrollbar {
@@ -191,7 +192,7 @@ body .dropdown:hover .dropdown-content {
         grid-template-columns: 160px auto 13%;
     -ms-grid-rows: 0px auto 5%;
         grid-template-rows: 0px auto 5%;
-        grid-template-areas: "b c d" "b a d" "b e d";
+        grid-template-areas: ". . ." ". a ." ". . .";
   }
 }
 

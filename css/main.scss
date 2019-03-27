@@ -165,15 +165,12 @@ body {
         background: #555; 
         margin: 10px;
       }
-      
-    margin: 0;
-    display: grid;
-    grid-template-columns: 5% auto 5%;
-    grid-template-rows: 30px auto 5%;
-    grid-template-areas: 
-    "l m r"
-    "l m r"
-    "l m r";
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+
     
     @include desktop {
         margin: 0;
@@ -181,9 +178,9 @@ body {
         grid-template-columns: 160px auto 13%;
         grid-template-rows: 0px auto 5%;
         grid-template-areas: 
-        "b c d"
-        "b a d"
-        "b e d";
+        ". . ."
+        ". a ."
+        ". . .";
     }
 
     .table {
